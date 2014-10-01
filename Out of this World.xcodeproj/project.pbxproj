@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		05C7671F19DB5C51007FA2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C7671E19DB5C51007FA2E3 /* main.m */; };
 		05C7672219DB5C51007FA2E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C7672119DB5C51007FA2E3 /* AppDelegate.m */; };
-		05C7672519DB5C51007FA2E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C7672419DB5C51007FA2E3 /* ViewController.m */; };
 		05C7672819DB5C51007FA2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C7672619DB5C51007FA2E3 /* Main.storyboard */; };
 		05C7672A19DB5C51007FA2E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C7672919DB5C51007FA2E3 /* Images.xcassets */; };
 		05C7672D19DB5C51007FA2E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C7672B19DB5C51007FA2E3 /* LaunchScreen.xib */; };
 		05C7673919DB5C52007FA2E3 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C7673819DB5C52007FA2E3 /* Out_of_this_WorldTests.m */; };
+		05C7674419DB5DEC007FA2E3 /* OuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C7674319DB5DEC007FA2E3 /* OuterSpaceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		05C7671E19DB5C51007FA2E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05C7672019DB5C51007FA2E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05C7672119DB5C51007FA2E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05C7672319DB5C51007FA2E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05C7672419DB5C51007FA2E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		05C7672719DB5C51007FA2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05C7672919DB5C51007FA2E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05C7672C19DB5C51007FA2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		05C7673219DB5C52007FA2E3 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C7673719DB5C52007FA2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05C7673819DB5C52007FA2E3 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		05C7674219DB5DEC007FA2E3 /* OuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OuterSpaceTableViewController.h; path = ../OuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		05C7674319DB5DEC007FA2E3 /* OuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OuterSpaceTableViewController.m; path = ../OuterSpaceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				05C7672019DB5C51007FA2E3 /* AppDelegate.h */,
 				05C7672119DB5C51007FA2E3 /* AppDelegate.m */,
-				05C7672319DB5C51007FA2E3 /* ViewController.h */,
-				05C7672419DB5C51007FA2E3 /* ViewController.m */,
 				05C7672619DB5C51007FA2E3 /* Main.storyboard */,
+				05C7674219DB5DEC007FA2E3 /* OuterSpaceTableViewController.h */,
+				05C7674319DB5DEC007FA2E3 /* OuterSpaceTableViewController.m */,
 				05C7672919DB5C51007FA2E3 /* Images.xcassets */,
 				05C7672B19DB5C51007FA2E3 /* LaunchScreen.xib */,
 				05C7671C19DB5C51007FA2E3 /* Supporting Files */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C7672519DB5C51007FA2E3 /* ViewController.m in Sources */,
+				05C7674419DB5DEC007FA2E3 /* OuterSpaceTableViewController.m in Sources */,
 				05C7672219DB5C51007FA2E3 /* AppDelegate.m in Sources */,
 				05C7671F19DB5C51007FA2E3 /* main.m in Sources */,
 			);
